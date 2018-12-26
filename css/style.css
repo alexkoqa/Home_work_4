@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(47, 47, 47, 255);
+}
+
+.m_width {
+	max-width: 1615px;
+	margin: 0 auto;
+	/*	display: flex;
+	justify-content: center;*/
+}
+
+.item_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+    border-radius: 20px;
+	box-shadow: 1px 1px 20px black;
+    /*position: absolute;*/
+    /*height: 100vh;*/
+
+}
+
+.foto {
+	width: 50%;
+}
+.main {
+	width: 50%;
+}
+покажи мне условие где говорится про центр? 
+.foto_headphones{
+	width: 100%;
+
+}
+
+.title{
+	font-size: 36pt;
+}
+.description{
+	
+	font-size: 24pt;
+	margin-top: 48px;
+}
+
+.title_price{
+	
+	font-size: 24pt;
+	margin-top: 87px;
+}
+
+.price{
+	
+	font-size: 48pt;
+	margin-top: 36px;
+}
+
+button {
+	width: 402px;
+	height: 79px;
+	margin-top: 90px;
+	transition: 0.5s;
+	font-size: 30pt;
+	color: rgba(255, 255, 255, 255);
+	background-color: #ec744a;
+	border-radius: 10px;
+	border: none;
+}
+button:focus {
+	outline: none;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #E13C00;
+	transition: 0.5s;
+}
+
+.item_wrapper {
+	padding: 100px 20px;
+}
+
+.items {
+/*	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	height: 100vh;*/
+	position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    top: 50%;
+    margin-top: -406px;
+
+}
+
+/*.items:before {
+	content: '';
+	min-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}*/
